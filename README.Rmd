@@ -1,0 +1,38 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# fibonacci
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of fibonacci is to list fibonacci numbers up to a specified integer
+
+## Installation
+
+You can install the development version of fibonacci from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("aidanhew/DSCI524-R-Individual-Assignment")
+```
+
+## Example
+
+This is a basic example which shows you how to return fibonacci numbers up to 10:
+
+```{r example}
+library(fibonacci)
+
+fib_before_n(10)
+```
